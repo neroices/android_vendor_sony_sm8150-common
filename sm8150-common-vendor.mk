@@ -1492,7 +1492,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.msmnile.api30 \
     QtiTelephonyService \
     embms \
     uceShimService \
