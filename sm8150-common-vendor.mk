@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/lib/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
+    vendor/sony/sm8150-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/sony/sm8150-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/sony/sm8150-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/sony/sm8150-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
@@ -358,7 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/imsdatadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdatadaemon.rc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
-    vendor/sony/sm8150-common/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/init.illumination_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.illumination_service.rc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/init.keyprovd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.keyprovd.rc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/init/init.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.rc \
@@ -1468,7 +1468,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0-impl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0.so \
-    vendor/sony/sm8150-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/sony/sm8150-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/sony/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/sony/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
